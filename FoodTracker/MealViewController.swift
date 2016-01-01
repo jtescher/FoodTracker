@@ -76,6 +76,9 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
             meal = Meal(name: name, photo: photo, rating: rating)
         }
     }
+    @IBAction func cancel(sender: UIBarButtonItem) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
 
     // MARK: Actions
     @IBAction func selectImageFromPhotoLibrary(sender: UITapGestureRecognizer) {
