@@ -16,6 +16,7 @@
 		B9B3F5371C34D4D500F687BB /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B3F5361C34D4D500F687BB /* RatingControl.swift */; };
 		B9B3F5391C37004200F687BB /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B3F5381C37004200F687BB /* Meal.swift */; };
 		B9B3F53A1C37004200F687BB /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B3F5381C37004200F687BB /* Meal.swift */; };
+		B9B3F53C1C3707EB00F687BB /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B3F53B1C3707EB00F687BB /* MealTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		B96EB9961C34956A00D8000E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9B3F5361C34D4D500F687BB /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		B9B3F5381C37004200F687BB /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		B9B3F53B1C3707EB00F687BB /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				B9B3F5381C37004200F687BB /* Meal.swift */,
 				B9B3F5361C34D4D500F687BB /* RatingControl.swift */,
 				B96EB9831C34956A00D8000E /* Main.storyboard */,
+				B9B3F53B1C3707EB00F687BB /* MealTableViewCell.swift */,
 				B96EB9861C34956A00D8000E /* Assets.xcassets */,
 				B96EB9881C34956A00D8000E /* LaunchScreen.storyboard */,
 				B96EB98B1C34956A00D8000E /* Info.plist */,
@@ -208,6 +211,7 @@
 				B96EB9821C34956A00D8000E /* ViewController.swift in Sources */,
 				B9B3F5371C34D4D500F687BB /* RatingControl.swift in Sources */,
 				B96EB9801C34956A00D8000E /* AppDelegate.swift in Sources */,
+				B9B3F53C1C3707EB00F687BB /* MealTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
